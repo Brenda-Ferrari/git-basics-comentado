@@ -1,0 +1,87 @@
+# 08. Salve fragmentos
+
+> Arquive e restaure mudanças incompletas.
+
+> Seção do [GitHub Git Cheat Sheet (pt-BR)](https://training.github.com/downloads/pt_BR/github-git-cheat-sheet/).
+
+
+[⬅ Suprima o monitoramento](07-suprima-o-monitoramento.md) · [Índice](../README.md) · [Revise o histórico ➡](09-revise-o-historico.md)
+
+---
+
+## Comandos desta seção (4)
+
+### 1. `git stash`
+
+```bash
+git stash
+```
+
+**O que faz:**
+
+<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+
+**Quando usar / observação:**
+
+<!-- TODO: opcional, mas conta ponto. -->
+
+---
+
+### 2. `git stash pop`
+
+```bash
+git stash pop
+```
+
+**O que faz:**
+
+<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+
+**Quando usar / observação:**
+
+<!-- TODO: opcional, mas conta ponto. -->
+
+---
+
+### 3. `git stash list`
+
+```bash
+git stash list
+```
+
+**O que faz:**
+
+<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+
+**Quando usar / observação:**
+
+<!-- TODO: opcional, mas conta ponto. -->
+
+---
+
+### 4. `git stash drop`
+
+```bash
+git stash drop
+```
+
+**O que faz:**
+
+<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+
+**Quando usar / observação:**
+
+<!-- TODO: opcional, mas conta ponto. -->
+
+---
+
+## Checklist deste arquivo
+
+- [ ] 1. `git stash`
+- [ ] 2. `git stash pop`
+- [ ] 3. `git stash list`
+- [ ] 4. `git stash drop`
+
+---
+
+[⬅ Suprima o monitoramento](07-suprima-o-monitoramento.md) · [Índice](../README.md) · [Revise o histórico ➡](09-revise-o-historico.md)
