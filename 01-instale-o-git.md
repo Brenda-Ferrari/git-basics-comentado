@@ -17,11 +17,11 @@
 
 **Para que serve, e quando eu usaria:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+É a interface visual, usado para rotinas simples (commit, push, criar branches).
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Quando preferir uma interface visual simples e rápida.
 
 ---
 
@@ -31,11 +31,11 @@
 
 **Para que serve, e quando eu usaria:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+É a interface visual, usado para rotinas simples (commit, push, criar branches).
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Quando preferir uma interface visual simples e rápida.
 
 ---
 
@@ -45,19 +45,19 @@
 
 **Para que serve, e quando eu usaria:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Controle sobre o código, executar comandos avançados e automatizar processos pelo terminal.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Quando precisar de controle avançado ou preferir trabalhar direto pelo terminal.
 
 ---
 
 ## Checklist deste arquivo
 
-- [ ] 1. GitHub para Windows
-- [ ] 2. GitHub para Mac
-- [ ] 3. Git para todas as plataformas
+- [X] 1. GitHub para Windows
+- [X] 2. GitHub para Mac
+- [X] 3. Git para todas as plataformas
 
 ---
 
