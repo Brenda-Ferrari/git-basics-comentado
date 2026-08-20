@@ -19,11 +19,11 @@ git init [nome-do-projeto]
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Cria um repositório Git do zero em uma pasta local que ainda não é monitorada.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Para começar um projeto novo no seu computador que ainda não existe na nuvem.
 
 ---
 
@@ -35,18 +35,18 @@ git clone [url]
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Baixa a cópia completa de um repositório que já existe para a sua máquina.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Para trabalhar em um projeto que já existe no GitHub.
 
 ---
 
 ## Checklist deste arquivo
 
-- [ ] 1. `git init [nome-do-projeto]`
-- [ ] 2. `git clone [url]`
+- [X] 1. `git init [nome-do-projeto]`
+- [X] 2. `git clone [url]`
 
 ---
 
