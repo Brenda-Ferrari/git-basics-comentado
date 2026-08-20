@@ -19,11 +19,11 @@ git config --global user.name "[nome]"
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Configura o nome do usuário.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Quando você quer definir o nome de um usuário.
 
 ---
 
@@ -35,18 +35,18 @@ git config --global user.email "[endereco-de-email]"
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Configura o e-mail do usuário.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Quando você quer definir o e-mail de um usuário.
 
 ---
 
 ## Checklist deste arquivo
 
-- [ ] 1. `git config --global user.name "[nome]"`
-- [ ] 2. `git config --global user.email "[endereco-de-email]"`
+- [X] 1. `git config --global user.name "[nome]"`
+- [X] 2. `git config --global user.email "[endereco-de-email]"`
 
 ---
 
