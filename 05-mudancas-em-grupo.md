@@ -19,11 +19,11 @@ git branch
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Lista todas as branches locais do projeto e indica em qual você está atualmente.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Quando quiser saber quais branches existem na sua máquina ou confirmar em qual delas você está trabalhando.
 
 ---
 
@@ -35,11 +35,11 @@ git branch [nome-do-branch]
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Cria uma nova branch com o nome especificado, apontando para o commit onde você está no momento, mas sem mudar para ela.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Quando você quiser apenas preparar/criar uma nova linha de trabalho sem começar a mexer nela imediatamente.
 
 ---
 
@@ -51,11 +51,11 @@ git switch -c [nome-do-branch]
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Cria a nova branch e muda para ela no mesmo instante.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Sempre que for iniciar uma nova tarefa e quiser começar a trabalhar nela imediatamente.
 
 ---
 
@@ -67,11 +67,11 @@ git merge [nome-do-branch]
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Junta o histórico da branch especificada dentro da branch em que você está posicionado agora.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Quando a funcionalidade desenvolvida em uma branch estiver concluída e você quiser trazê-la para a branch principal.
 
 ---
 
@@ -83,21 +83,21 @@ git branch -d [nome-do-branch]
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Deleta a branch local informada. O Git só permite apagar se ela já tiver sido totalmente mesclada.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Para manter o projeto limpo, apagando branches temporárias de tarefas que você já concluiu e uniu à branch principal.
 
 ---
 
 ## Checklist deste arquivo
 
-- [ ] 1. `git branch`
-- [ ] 2. `git branch [nome-do-branch]`
-- [ ] 3. `git switch -c [nome-do-branch]`
-- [ ] 4. `git merge [nome-do-branch]`
-- [ ] 5. `git branch -d [nome-do-branch]`
+- [X] 1. `git branch`
+- [X] 2. `git branch [nome-do-branch]`
+- [X] 3. `git switch -c [nome-do-branch]`
+- [X] 4. `git merge [nome-do-branch]`
+- [X] 5. `git branch -d [nome-do-branch]`
 
 ---
 
