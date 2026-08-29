@@ -37,18 +37,18 @@ git ls-files --others --ignored --exclude-standard
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+É um arquivo de texto especial onde você lista regras de quais arquivos, pastas ou extensões o Git deve ignorar completamente.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+No início do projeto para evitar o envio de arquivos temporários, logs, pastas de dependências, arquivos compilados ou dados sensíveis.
 
 ---
 
 ## Checklist deste arquivo
 
-- [ ] 1. Arquivo `.gitignore`
-- [ ] 2. `git ls-files --others --ignored --exclude-standard`
+- [X] 1. Arquivo `.gitignore`
+- [X] 2. `git ls-files --others --ignored --exclude-standard`
 
 ---
 
