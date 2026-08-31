@@ -19,11 +19,11 @@ git fetch [nome-remoto]
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Baixa todas as atualizações, histórico e branches do repositório remoto para a sua máquina, sem alterar nada nos seus arquivos locais.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Quando você quiser ver o que os seus colegas enviaram para o GitHub sem o risco de alterar ou bagunçar o código que você está escrevendo no momento.
 
 ---
 
@@ -35,11 +35,11 @@ git merge [nome-remoto]/[branch]
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Junta as alterações de uma branch remota que você baixou previamente na branch local em que você está posicionado.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Após ter executado o git fetch, quando você estiver pronto para mesclar de fato as novidades do servidor no seu código local.
 
 ---
 
@@ -51,11 +51,11 @@ git push [alias] [branch]
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Envia os seus commits locais para o repositório remoto na nuvem.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Sempre que você concluir uma tarefa e quiser publicar as alterações no GitHub.
 
 ---
 
@@ -67,20 +67,20 @@ git pull
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Atalho completo que realiza o git fetch (baixa as novidades) e em seguida o git merge (junta com seu código) em um único comando.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+No início do dia ou antes de começar uma nova tarefa, para atualizar rapidamente a sua máquina com a versão mais recente do projeto que está no servidor.
 
 ---
 
 ## Checklist deste arquivo
 
-- [ ] 1. `git fetch [nome-remoto]`
-- [ ] 2. `git merge [nome-remoto]/[branch]`
-- [ ] 3. `git push [alias] [branch]`
-- [ ] 4. `git pull`
+- [X] 1. `git fetch [nome-remoto]`
+- [X] 2. `git merge [nome-remoto]/[branch]`
+- [X] 3. `git push [alias] [branch]`
+- [X] 4. `git pull`
 
 ---
 
