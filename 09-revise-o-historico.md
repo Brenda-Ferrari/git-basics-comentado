@@ -19,11 +19,11 @@ git log
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Exibe o histórico cronológico dos commits do repositório.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Quando você quiser rastrear o que foi feito no projeto, ver quem fez determinado commit ou encontrar o hash de um ponto específico no tempo.
 
 ---
 
@@ -35,11 +35,11 @@ git log --follow [arquivo]
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Exibe o histórico completo de commits de um arquivo específico.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Quando você quiser investigar a história de um arquivo específico e não quiser perder o rastro do histórico caso ele tenha mudado de nome.
 
 ---
 
@@ -51,11 +51,11 @@ git diff [primeiro-branch]...[segundo-branch]
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Mostra as alterações exatas no código que estão no segundo-branch desde o ponto em que ele se separou do primeiro-branch.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Quando você estiver trabalhando em uma branch de funcionalidade e quiser ver exatamente o que você produziu em relação à branch principal, antes de fazer o merge.
 
 ---
 
@@ -67,20 +67,20 @@ git show [commit]
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Exibe os detalhes completos de um commit específico.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Quando você tiver o hash de um commit e quiser inspecionar exatamente o que foi adicionado ou removido apenas naquela alteração específica.
 
 ---
 
 ## Checklist deste arquivo
 
-- [ ] 1. `git log`
-- [ ] 2. `git log --follow [arquivo]`
-- [ ] 3. `git diff [primeiro-branch]...[segundo-branch]`
-- [ ] 4. `git show [commit]`
+- [X] 1. `git log`
+- [X] 2. `git log --follow [arquivo]`
+- [X] 3. `git diff [primeiro-branch]...[segundo-branch]`
+- [X] 4. `git show [commit]`
 
 ---
 
