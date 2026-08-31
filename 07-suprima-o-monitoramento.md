@@ -21,11 +21,11 @@ temp-*
 
 **O que este arquivo faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+É um arquivo de texto especial onde você lista regras de quais arquivos, pastas ou extensões o Git deve ignorar completamente.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+No início do projeto para evitar o envio de arquivos temporários, logs, pastas de dependências, arquivos compilados ou dados sensíveis.
 
 ---
 
@@ -37,11 +37,11 @@ git ls-files --others --ignored --exclude-standard
 
 **O que faz:**
 
-É um arquivo de texto especial onde você lista regras de quais arquivos, pastas ou extensões o Git deve ignorar completamente.
+Lista no terminal todos os arquivos da sua pasta de trabalho que estão sendo ignorados pelo Git com base nas regras definidas no seu arquivo.
 
 **Quando usar / observação:**
 
-No início do projeto para evitar o envio de arquivos temporários, logs, pastas de dependências, arquivos compilados ou dados sensíveis.
+Para verificar se o .gitignore está funcionando corretamente, testar se uma nova regra funcionou ou descobrir por que um arquivo específico não está aparecendo no git status.
 
 ---
 
