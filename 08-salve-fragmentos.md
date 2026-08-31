@@ -19,11 +19,11 @@ git stash
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Salva temporariamente as alterações locais não salvas em uma "gaveta" e limpa sua pasta de trabalho, voltando o código ao estado do último commit.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Quando você estiver no meio de um trabalho e precisar mudar de branch para corrigir um bug urgente.
 
 ---
 
@@ -35,11 +35,11 @@ git stash pop
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Retira as alterações salvas do topo da pilha e as reaplica no seu código de trabalho atual, apagando esse item da gaveta do stash.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Quando você voltar para a branch em que estava trabalhando e quiser restaurar o código que tinha guardado temporariamente com o git stash.
 
 ---
 
@@ -51,11 +51,11 @@ git stash list
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Exibe uma lista com todos os rascunhos que você tem armazenados na pilha do stash.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Quando você tiver executado o git stash várias vezes e precisar verificar quais stashes estão guardados antes de aplicar um deles.
 
 ---
 
@@ -67,20 +67,20 @@ git stash drop
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Exclui permanentemente um rascunho específico guardado no stash (remove o mais recente se nenhum for especificado).
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Quando você constatar que as alterações salvas em um determinado stash não são mais necessárias e quiser limpar a pilha para liberar espaço.
 
 ---
 
 ## Checklist deste arquivo
 
-- [ ] 1. `git stash`
-- [ ] 2. `git stash pop`
-- [ ] 3. `git stash list`
-- [ ] 4. `git stash drop`
+- [X] 1. `git stash`
+- [X] 2. `git stash pop`
+- [X] 3. `git stash list`
+- [X] 4. `git stash drop`
 
 ---
 
